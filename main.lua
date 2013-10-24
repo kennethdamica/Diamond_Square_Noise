@@ -3,7 +3,7 @@ ds = require('Diamond_Square_Noise')
 
 function love.load()
 	tiling = false
-	Generate_heightmap(6)
+	Generate_heightmap()
 end
 
 function love.update(dt)
