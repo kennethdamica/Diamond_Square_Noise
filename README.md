@@ -11,3 +11,6 @@ Usage:
 
 
 Diamond_Square_Noise:create() returns a 2D array with values between 0 and 255. 
+
+Here's a link to another good implementation of this algorithm in Lua:
+https://github.com/mlepage/heightmap
