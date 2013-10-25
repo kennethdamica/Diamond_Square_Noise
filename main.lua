@@ -31,8 +31,6 @@ end
 
 function Generate_heightmap(size)
 	local size = size or 513
-	assert(math.floor(math.log(size-1)/math.log(2)) == math.log(size-1)/math.log(2), 
-			"ERROR: Argument 'size' must be of the form 2^n + 1")
 	heightmap = ds:create(size)
 	
 	heightmap_data = love.image.newImageData(size,size)
