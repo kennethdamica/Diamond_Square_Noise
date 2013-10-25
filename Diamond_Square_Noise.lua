@@ -1,6 +1,8 @@
 local Diamond_Square = {}
 
 Diamond_Square.create = function(self,size)
+	assert(math.floor(math.log(size-1)/math.log(2)) == math.log(size-1)/math.log(2), 
+		"ERROR: Argument 'size' must be of the form 2^n + 1")
 	local w = size
 	local h = size
 	local offset = w - 1
